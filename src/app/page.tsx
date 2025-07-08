@@ -678,12 +678,14 @@ export default function Home() {
                   src="https://www.pngarts.com/files/1/Yacht-Transparent-Images.png" 
                   alt="Yacht Transportation" 
                   style={{
-                    width: '420px',
+                    width: '500px',
                     height: 'auto',
                     animation: 'gentleFloat 6s ease-in-out infinite',
                     filter: 'drop-shadow(0 20px 50px rgba(59, 130, 246, 0.3))',
                     position: 'relative',
-                    zIndex: 3
+                    zIndex: 3,
+                    margin: '0 auto',
+                    display: 'block'
                   }}
                 />
 
@@ -1783,8 +1785,8 @@ export default function Home() {
                   ⭐⭐⭐⭐⭐
                 </div>
                 <p className="testimonial-text">
-                  "40 metrelik yatımı Monaco'dan İstanbul'a taşıttım. Profesyonel ekip, 
-                  zamanında teslimat ve kusursuz hizmet. Kesinlikle tavsiye ederim."
+                  &ldquo;40 metrelik yatımı Monaco&apos;dan İstanbul&apos;a taşıttım. Profesyonel ekip, 
+                  zamanında teslimat ve kusursuz hizmet. Kesinlikle tavsiye ederim.&rdquo;
                 </p>
                 <div className="testimonial-author">
                   <div className="author-info">
@@ -1801,8 +1803,8 @@ export default function Home() {
                   ⭐⭐⭐⭐⭐
                 </div>
                 <p className="testimonial-text">
-                  "SeaLive ile çalışmak harika bir deneyimdi. Yatım güvenli ellerde olduğunu 
-                  bilmek çok değerliydi. Her aşamada bilgilendirilme mükemmeldi."
+                  &ldquo;SeaLive ile çalışmak harika bir deneyimdi. Yatım güvenli ellerde olduğunu 
+                  bilmek çok değerliydi. Her aşamada bilgilendirilme mükemmeldi.&rdquo;
                 </p>
                 <div className="testimonial-author">
                   <div className="author-info">
@@ -1819,8 +1821,8 @@ export default function Home() {
                   ⭐⭐⭐⭐⭐
                 </div>
                 <p className="testimonial-text">
-                  "Express taşıma hizmeti sayesinde yatım planladığımdan erken teslim edildi. 
-                  Fiyat performans açısından en iyi seçenek."
+                  &ldquo;Express taşıma hizmeti sayesinde yatım planladığımdan erken teslim edildi. 
+                  Fiyat performans açısından en iyi seçenek.&rdquo;
                 </p>
                 <div className="testimonial-author">
                   <div className="author-info">
